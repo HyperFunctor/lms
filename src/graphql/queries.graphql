@@ -1,0 +1,8 @@
+query GetAllCourses {
+  courseCollection {
+    items {
+      slug
+      title
+    }
+  }
+}
